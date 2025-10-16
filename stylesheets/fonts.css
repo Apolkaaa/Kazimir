@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-Light.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/KazimirLightItalic.woff") format("woff");
+  font-style: Italic;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-RegularItalic.woff") format("woff");
+  font-style: Italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/KazimirMedium.woff") format("woff");
+  font-style: Italic;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-BoldItalic.woff") format("woff");
+  font-style: Italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-Black.woff") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-BlackItalic.woff") format("woff");
+  font-style: Italic;
+  font-weight: 900;
+}

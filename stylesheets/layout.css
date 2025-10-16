@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  display: block;
+  margin: o auto;
+  font-family: "Kazimir";
+  padding: 40px 40px;
+  position: relative;
+}
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../images/макет.png");
+  width: 1440px;
+  height: 7068spx;
+  opacity: 0.3;
+}
+.middle_fonts {
+  font-size: 36px;
+  font-weight: 500;
+  color: #0e008b;
+}
+.small_fonts {
+  font-size: 24px;
+  font-weight: 400;
+  color: #0e008b;
+}
+.section_1 {
+  display: flex;
+  width: 1360px;
+}
+.section_1 div {
+  display: flex;
+}
+.section_1 img {
+  margin-left: 5px;
+  height: 22px;
+}
+.section_1 div:nth-of-type(3) {
+  margin-left: 694px;
+}
+.section_1 div:nth-of-type(2) {
+  width: 145px;
+  margin-left: 60px;
+}
+.section_1 div:nth-of-type(1) {
+  width: 150px;
+}
+.section_2 {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 600px;
+}
+.section_2 h1 {
+  font-size: 375px;
+  font-style: normal;
+  font-weight: 400;
+  color: #0e008b;
+  margin-left: -16px;
+  margin-top: -52px;
+}
+#section_2_1 {
+  margin-top: 264px;
+}
+.section_2 div:nth-of-type(1) {
+  margin-left: 250px;
+}
+.section_3 {
+  height: 555px;
+  position: relative;
+  display: flex;
+  align-items: end;
+  width: 1440px;
+}
+.section_3 img {
+  height: 480px;
+  width: 358px;
+  margin-left: 107px;
+}
+.section_3 div:nth-last-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 893px;
+}
+#section_3_1 {
+  margin-bottom: 15px;
+}
+#section_3_2 {
+  color: white;
+  background-color: #0e008b;
+  border-radius: 20px 20px 0 20px;
+  padding: 30px;
+  margin-bottom: 15px;
+}
+#section_3_3 {
+  padding: 30px;
+  border: 3px solid #0e008b;
+  border-radius: 20px 20px 0 20px;
+  max-width: 786px;
+}
+.letter {
+  position: absolute;
+  font-size: 190px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  -webkit-text-stroke: solid;
+  -webkit-text-stroke-color: #0e008b;
+  -webkit-text-stroke-width: 3px;
+}
+#section_3_4 {
+  top: 140px;
+  left: 60px;
+}
+#section_3_5 {
+  top: 530px;
+  left: 780px;
+}
+.section_4 {
+  height: 480px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  width: 1440px;
+}
+.section_4 img {
+  height: 480px;
+  width: 358px;
+  margin-left: -22px;
+}
+.section_4 div:nth-last-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  margin-left: 106px;
+}
+#section_4_1 {
+  color: #0e008b;
+  border-radius: 20px 20px 20px 0;
+  padding: 30px;
+  margin-top: 15px;
+  max-width: 918px;
+  border: 3px solid #0e008b;
+}
+#section_4_2 {
+  left: 1140px;
+  top: 82px;
+}
+#section_4_3 {
+  left: 525px;
+  top: 296px;
+}
+.section_5 {
+  display: flex;
+  position: relative;
+  margin-top: 70px;
+  flex-direction: column;
+  width: 1440px;
+  height: 445px;
+}
+.section_5 div:nth-of-type(1) {
+  background-color: #0e008b;
+  padding: 70px 40px 70px 40px;
+  color: white;
+}
+h2 {
+  position: absolute;
+  top: 210px;
+  left: 0;
+  color: #0e008b;
+  font-size: 80px;
+}
+.outlines_light:hover ~ h1 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+}
+.outlines_light_Italic:hover ~ h1 {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+}
+.outlines_regular:hover ~ h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+.outlines_regular_Italic:hover ~ h1 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+}
+.outlines_medium:hover ~ h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+.outlines_medium_Italic:hover ~ h1 {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+}
+.outlines_bold:hover ~ h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+.outlines_bold_Italic:hover ~ h1 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+}
+.outlines_black:hover ~ h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+}
+.outlines_black_Italic:hover ~ h1 {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 24px;
+}
+.outlines {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
