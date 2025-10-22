@@ -258,6 +258,7 @@ body {
   background-color: #0e008b;
   padding: 70px 40px 70px 40px;
   color: white;
+  align-items: baseline;
 }
 .section_5 p {
   font-size: 24px;
