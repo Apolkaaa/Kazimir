@@ -1076,20 +1076,12 @@ div:nth-of-type(3) {
 .section_15 img {
   width: 655px;
   height: 447px;
-  margin-left: 28px;
+  margin-left: 52px;
 }
 .section_15 div:nth-of-type(1) {
   flex-direction: column;
   margin-top: 0px;
   margin-bottom: 30px;
-}
-#section_15_2 {
-  font-weight: 300;
-  font-style: italic;
-  font-size: 36px;
-  color: white;
-  width: auto;
-  margin-top: 9px;
 }
 #section_15_1 {
   font-weight: 700;
@@ -1114,7 +1106,7 @@ div:nth-of-type(3) {
   font-size: 80px;
   color: white;
 }
-#section_16_2 {
+.section_16_2 {
   font-weight: 300;
   font-style: italic;
   font-size: 24px;
